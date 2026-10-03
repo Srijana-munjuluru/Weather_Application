@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("https://i.ibb.co/qNv7NxZ/pc.webp");
+}
+
+#parent{
+    display: flex;
+    position: relative; 
+}
+
+#child1{
+    background-color: lightgray;
+    opacity: 0.7;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 40px 0px 40px 60px;
+    padding: 20px;
+    
+}
+
+#child1 input{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    width: 220px;
+    height: 35px;
+    background-color: white;
+    opacity: 1;
+    padding: 5px 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+
+#child1 button{
+    background-color: rgba(11, 11, 245, 0.977);
+    border: none;
+    width: 40px;
+    height: 35px;
+    margin: 40px 0px 30px 0px;
+    position: absolute;
+    left: 300px;
+    top: 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#search:focus{
+    border: none;
+    border: 1px solid rgba(11, 11, 245, 0.977);
+}
+
+#child2{
+    background-color: whitesmoke;
+    height: 600px;
+    width: 1100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 40px 60px 40px 0px;
+    padding: 20px;
+}
+
+#week:visited{
+    color: blue;
+}
+
+#today:visited{
+    color: blue;
+}
+
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#left button{
+    background-color: whitesmoke;
+    border: none;
+    margin: 10px 10px 20px 10px;
+    font-weight: bold;
+}
+
+#right button{
+    background-color: white;
+    border: none;
+    margin: 0px 25px 20px 0px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+}
+
+#weeks{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.week{
+    background-color: white;
+    width: 115px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.head{
+    margin: 30px 0px 30px 10px;
+}
+
+#details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dets{
+    width: 310px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.dets h6{
+    color: gray;
+}
+
+.foot{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+}

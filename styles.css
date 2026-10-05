@@ -5,9 +5,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+/* body{
     background-image: url("https://i.ibb.co/qNv7NxZ/pc.webp");
-}
+} */
 
 #parent{
     display: flex;
@@ -17,6 +17,7 @@ body{
 #child1{
     background-color: lightgray;
     opacity: 0.7;
+    /* width: 350px; */
     border: none;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -54,26 +55,27 @@ body{
 }
 
 #search:focus{
-    border: none;
-    border: 1px solid rgba(11, 11, 245, 0.977);
+    outline: none;
+    border: 2px solid rgba(11, 11, 245, 0.977);
+}
+
+#image{
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+}
+
+#show{
+    margin-top: 370px;
 }
 
 #child2{
     background-color: whitesmoke;
-    height: 600px;
     width: 1100px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 40px 60px 40px 0px;
     padding: 20px;
-}
-
-#week:visited{
-    color: blue;
-}
-
-#today:visited{
-    color: blue;
 }
 
 #buttons{
@@ -82,11 +84,17 @@ body{
     justify-content: space-between;
 }
 
-#left button{
+#left a{
     background-color: whitesmoke;
     border: none;
     margin: 10px 10px 20px 10px;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#week:visited{
+    color: blue;
 }
 
 #right button{
@@ -97,6 +105,11 @@ body{
     width: 40px;
     height: 40px;
     font-weight: bold;
+}
+
+#right button.selected {
+    background-color: black;
+    color: white;
 }
 
 #weeks{
@@ -112,6 +125,11 @@ body{
     margin: 15px;
     border-radius: 10px;
     text-align: center;
+}
+
+.week img{
+    width: 70px;
+    height: 60px;
 }
 
 .head{

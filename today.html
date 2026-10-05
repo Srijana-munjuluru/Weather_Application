@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather Prediction Application</title>
     <link rel="stylesheet" href="today.css">
 
 </head>
@@ -14,23 +14,23 @@
         <div id="child1">
             <input id="search" type="text" placeholder="Search...">
             <button id="btn"> </button>
-            <img src="" alt="weather">
+            <img src="" alt="weather" id="image">
             <h1 id="tmp"></h1>
             <p></p>
             <hr>
-            <p></p>
+            <p id="cond"></p>
             <p id="prec"></p>
             <h5 id="show"></h5>
         </div>
         <div id="child2">
             <div id="buttons">
                 <div id="left">
-                    <button id="today">Today</button>
-                    <button id="week">Week</button>
+                    <a href="today.html" id="today">Today</a>
+                    <a href="index.html" id="week">Week</a>
                 </div>
                 <div id="right">
-                    <button><sup>o</sup>C</button>
-                    <button><sup>o</sup>F</button>
+                    <button id="centigrade"><sup>o</sup>C</button>
+                    <button id="farenheit"><sup>o</sup>F</button>
                 </div>
             </div>
             <div id="day">
@@ -52,7 +52,7 @@
                 <div class="hour">
                     <h4>03:00 AM</h4>
                     <img src="" alt="icons">
-                    <p></p>
+                    <p class="ctmp"></p>
                 </div>
                 <div class="hour">
                     <h4>04:00 AM</h4>

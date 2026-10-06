@@ -5,10 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* body{
-    background-image: url("https://i.ibb.co/qNv7NxZ/pc.webp");
-} */
-
 #parent{
     display: flex;
     position: relative; 
@@ -17,17 +13,17 @@
 #child1{
     background-color: lightgray;
     opacity: 0.7;
-    /* width: 350px; */
+    width: 300px;
     border: none;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin: 40px 0px 40px 60px;
+    margin: 60px 0px 60px 100px;
     padding: 20px;
     
 }
 
 #child1 input{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 20px;
     border: none;
     background-color: white;
@@ -38,7 +34,6 @@
     padding: 5px 10px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    
 }
 
 #child1 button{
@@ -48,8 +43,8 @@
     height: 35px;
     margin: 40px 0px 30px 0px;
     position: absolute;
-    left: 300px;
-    top: 40px;
+    left: 330px;
+    top: 60px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
@@ -60,21 +55,27 @@
 }
 
 #image{
-    width: 100px;
-    height: 100px;
-    margin: 15px auto;
+    width: 120px;
+    height: 120px;
+    margin: 15px 0px 15px 60px;
+    
+}
+
+#DT,#cond,hr,#prec{
+    margin-top: 10px;
 }
 
 #show{
-    margin-top: 370px;
+    position: absolute;
+    bottom: 80px;
 }
 
 #child2{
     background-color: whitesmoke;
-    width: 1100px;
+    width: 1000px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin: 40px 60px 40px 0px;
+    margin: 60px 100px 60px 0px;
     padding: 20px;
 }
 
@@ -93,7 +94,7 @@
     color: black;
 }
 
-#week:visited{
+#left a.active{
     color: blue;
 }
 
@@ -112,6 +113,26 @@
     color: white;
 }
 
+#day{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hour{
+    background-color: white;
+    width: 115px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hour img{
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+}
+
 #weeks{
     display: flex;
     justify-content: center; 
@@ -122,7 +143,7 @@
     background-color: white;
     width: 115px;
     padding: 10px;
-    margin: 15px;
+    margin: 10px;
     border-radius: 10px;
     text-align: center;
 }
@@ -130,6 +151,7 @@
 .week img{
     width: 70px;
     height: 60px;
+    margin: 10px;
 }
 
 .head{
@@ -143,17 +165,21 @@
 }
 
 .dets{
-    width: 310px;
+    width: 300px;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
 }
 
-.dets h6{
+.dets h5{
     color: gray;
 }
 
+.dets h1{
+    margin: 20px;
+    text-align: center;
+}
 .foot{
     text-align: center;
     margin-top: 20px;

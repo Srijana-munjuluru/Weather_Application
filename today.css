@@ -5,10 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* body{
-    background-image: url("https://i.ibb.co/qNv7NxZ/pc.webp");
-} */
-
 #parent{
     display: flex;
     position: relative; 
@@ -36,8 +32,7 @@
     opacity: 1;
     padding: 5px 10px;
     border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    
+    border-bottom-left-radius: 8px;   
 }
 
 #child1 button{
@@ -65,7 +60,7 @@
 }
 
 #show{
-    margin-top: 370px;
+    margin-top: 770px;
 }
 
 #child2{
@@ -120,7 +115,7 @@
     background-color: white;
     width: 115px;
     padding: 10px;
-    margin: 15px;
+    margin: 10px;
     border-radius: 10px;
     text-align: center;
 }
@@ -128,6 +123,7 @@
 .hour img{
     width: 60px;
     height: 50px;
+    margin: 10px;
 }
 
 .head{

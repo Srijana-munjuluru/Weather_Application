@@ -1,3 +1,32 @@
+let today = document.getElementById("today");
+let week = document.getElementById("week");
+
+let todayPage = document.getElementById("todayPage");
+let weekPage = document.getElementById("weekPage");
+
+today.classList.add("active");
+week.classList.remove("active");
+
+today.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    todayPage.style.display = "block";
+    weekPage.style.display = "none";
+
+    today.classList.add("active");
+    week.classList.remove("active");
+});
+
+week.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    todayPage.style.display = "none";
+    weekPage.style.display = "block";
+
+    week.classList.add("active");
+    today.classList.remove("active");
+});
+
 let centigrade = document.getElementById('centigrade')
 let farenheit = document.getElementById('farenheit')
 let CT = 0
@@ -130,8 +159,8 @@ async function fdata(city) {
     let cond = document.getElementById('cond')
     cond.innerHTML = pdata.currentConditions.conditions
 
-    let prec = document.getElementById('prec')
-    prec.innerHTML = "prec : " + pdata.currentConditions.precip
+    let prec = document.getElementById('prec');
+    prec.innerHTML = "Precipitation: " + pdata.currentConditions.precipprob + "%";
 
     let show = document.getElementById('show')
     show.innerHTML = pdata.resolvedAddress

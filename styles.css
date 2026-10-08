@@ -186,3 +186,223 @@
     padding: 10px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 1100px) {
+    #parent {
+        width: 100%;
+        padding: 30px;
+    }
+
+    #child1 {
+        width: 280px;
+        margin: 30px 0px 30px 0px;
+    }
+
+    #child2 {
+        width: calc(100% - 280px);
+        margin: 30px 0px 30px 0px;
+    }
+
+    #child1 input {
+        width: 200px;
+    }
+
+    #child1 button {
+        left: 310px;
+    }
+
+    .dets {
+        width: 250px;
+    }
+
+    .hour,.week {
+        width: 105px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #parent {
+        display: block;
+        width: 100%;
+        padding: 15px;
+    }
+
+    #child1 {
+        width: 100%;
+        margin: 15px 0px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    #child2 {
+        width: 100%;
+        margin: 15px 0px;
+        border-radius: 20px;
+        padding: 15px;
+    }
+
+    #child1 input {
+        width: calc(100% - 45px);
+    }
+
+    #child1 button {
+        position: absolute;
+        left: auto;
+        right: 40px;
+        top: 70px;
+        margin: 0px;
+    }
+
+    #image {
+        display: block;
+        margin: 15px auto;
+    }
+
+    #show {
+        position: static;
+        margin-top: 20px;
+    }
+
+    #buttons {
+        align-items: center;
+    }
+
+    #left {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #left a {
+        margin: 10px 15px 20px 0px;
+    }
+
+    #right button {
+        margin: 0px 10px 20px 0px;
+    }
+
+    #day {
+        justify-content: center;
+    }
+
+    #weeks {
+        justify-content: center;
+    }
+
+    .hour {
+        width: 105px;
+        margin: 7px;
+    }
+
+    .week {
+        width: 105px;
+        margin: 7px;
+    }
+
+    #details {
+        justify-content: center;
+    }
+
+    .dets {
+        width: 100%;
+        max-width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #parent {
+        padding: 10px;
+    }
+
+    #child1 {
+        padding: 15px;
+        margin: 10px 0px;
+    }
+
+    #child2 {
+        padding: 10px;
+        margin: 10px 0px;
+    }
+
+    #child1 input {
+        height: 35px;
+        width: calc(100% - 45px);
+    }
+
+    #child1 button {
+        right: 15px;
+        top: 55px;
+    }
+
+    #image {
+        width: 100px;
+        height: 100px;
+    }
+
+    #tmp {
+        font-size: 30px;
+    }
+
+    #DT {
+        font-size: 14px;
+    }
+
+    #cond,#prec,#show {
+        font-size: 14px;
+    }
+
+    #left a {
+        font-size: 14px;
+        margin-right: 12px;
+    }
+
+    #right button {
+        width: 35px;
+        height: 35px;
+        margin-right: 5px;
+    }
+
+    .hour {
+        width: 90px;
+        padding: 8px;
+        margin: 5px;
+    }
+
+    .hour img {
+        width: 50px;
+        height: 45px;
+        margin: 7px;
+    }
+
+    .week {
+        width: 90px;
+        padding: 8px;
+        margin: 5px;
+    }
+
+    .week img {
+        width: 55px;
+        height: 50px;
+        margin: 7px;
+    }
+
+    .head {
+        margin: 20px 0px;
+        font-size: 18px;
+    }
+
+    .dets {
+        width: 100%;
+        margin: 7px 0px;
+    }
+
+    .dets h1 {
+        margin: 15px;
+        font-size: 24px;
+    }
+
+    .foot {
+        font-size: 13px;
+    }
+}

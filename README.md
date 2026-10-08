@@ -1,5 +1,3 @@
-# Weather_Application
-
 # Weather Prediction App 🌦️
 
 ## About the Project
